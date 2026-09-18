@@ -20,3 +20,39 @@ edge in COMEX gold?
 
 ## Environment
 Python 3.13 / Anaconda · yfinance · arch · stumpy · hmmlearn
+
+
+gc-futures-research/
+│
+├── README.md                          ← the workflow above, written up
+│
+├── 1_weekly_macro/
+│   ├── FUNDAMENTALS.ipynb
+│   ├── Daily_systematic_gold_macro_model.ipynb
+│   ├── Gold_Williams_Setup_Scorer_3.ipynb
+│   ├── gold_smart_money.ipynb
+│   └── quant_behavioral_gld.ipynb
+│
+├── 2_weekly_options_levels/
+│   ├── calculations.ipynb
+│   ├── Gold_Weekly_Prep_v3.ipynb
+│   └── SUNDAY_CHECK_fixed_1.ipynb
+│
+├── 3_daily_execution/
+│   ├── DAILY_UPDATE.ipynb
+│   ├── Gold_Morning_Bias_Engine.ipynb
+│   └── NY_GOLD_LIQUIDITY_ENGINE.ipynb
+│
+├── 4_pattern_regime_toolkit/
+│   ├── run_all.py                     ← entry point
+│   ├── _common.py
+│   ├── garch.py
+│   ├── HSMM.py
+│   ├── dtw.py
+│   ├── matrix.py
+│   ├── quarter.py
+│   ├── template.py
+│   ├── gameplan.py
+│   └── gameplan2.py
+│
+└── outputs/                           ← add to .gitignore
